@@ -1,4 +1,7 @@
 kind: Kustomization
 
+resources:
+- namespace.yaml
+
 commonLabels:
   foo: bar
